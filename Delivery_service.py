@@ -15,13 +15,10 @@ def min_platforms(data: list[int], max_weight: int):
         weight_sum = sorted_data[left_pointer] + sorted_data[right_pointer]
         if weight_sum <= max_weight:
             # Увеличиваем счётчик на 1, сумма этих элементов нам подходит.
-            result += 1
-            right_pointer -= 1
             left_pointer += 1
-        else:
-            # Увеличиваем счётчик на 1, если число не подходит.
-            result += 1 
-            right_pointer -= 1
+        # Увеличиваем счётчик на 1, если число не подходит.
+        result += 1
+        right_pointer -= 1
     return result
 
 
