@@ -1,4 +1,4 @@
-"""A. Служба доставки. ID: 137900104."""
+"""A. Служба доставки. ID: 137902845."""
 
 
 def min_platforms(data: list[int], max_weight: int):
