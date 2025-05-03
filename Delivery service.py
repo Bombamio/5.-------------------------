@@ -22,7 +22,6 @@ def min_platforms(data: list[int], max_weight: int):
             # Увеличиваем счётчик на 1, если число не подходит.
             result += 1 
             right_pointer -= 1
-
     return result
 
 
